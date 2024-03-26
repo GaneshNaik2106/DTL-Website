@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+
+  <title>Blogs</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #333; /* Darker header background color */
+      color: #fff; /* Header text color */
+    }
+
+    nav {
+      text-align: center;
+      background-color: #333; /* Darker navigation background color */
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #ffdd00; /* Hover color */
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .card {
+      width: calc(25% - 20px);
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px); /* Hover animation */
+    }
+
+    .card h2 {
+      margin-top: 0;
+    }
+
+    .card p {
+      margin-bottom: 15px;
+    }
+
+    .card a {
+      display: block;
+      color: #333;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .card a:hover {
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Optical Fibres Learning Platform</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Levels</a></li>
+      <li><a href="links.html">Links</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+   
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="card">
+      <h2>OFS:</h2>
+      <p>
+        This blog covers various topics related to optical fibers, including technology trends, industry insights, and applications.
+      </p>
+      <a href="https://www.ofsoptics.com/single-vs-multimode-fiber/" target="_blank">Visit Resource</a>
+    </div>
+
+    <div class="card">
+      <h2>Fiber Optics Blog by vialite</h2>
+      <p>
+        This blog offers articles and resources about fiber optics, including tutorials, product reviews, and industry news. 
+      <a href="https://www.vialite.com/resources/guides/what-is-rf-over-fiber-technology/?gad_source=1&gclid=Cj0KCQjwncWvBhD_ARIsAEb2HW-Kj5hx26JKw3aOMNdD5cLynahIkaydBxVJRJku7_BKJ88UUMrJVtwaAu-KEALw_wcB" target="_blank">Visit Resource</a>
+    </div>
+
+    <div class="card">
+      <h2>V1fibre Blog</h2>
+      <p>Click here to read various blogs and articles and expand your knowledge. </p>
+      <a href="https://v1fiber.com/blog/" target="_blank">Visit Resource</a>
+    </div>
+    
+    <div class="card">
+      <h2>Blog by Optcore</h2>
+      <p>Click here to understand the fibre color code. </p>
+      <a href="https://www.optcore.net/fiber-color-code/" target="_blank">Visit Resource</a>
+    </div>
+  </div>
+</body>
+</html>
